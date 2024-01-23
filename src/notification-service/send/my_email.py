@@ -1,6 +1,6 @@
 import smtplib, os, json
 from email.message import EmailMessage
-
+# from my_email import EmailMessage
 
 def notification(message):
     message = json.loads(message)

@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: nasi101/auth
+          image: sreedhar8897/videotomp3-auth
           ports:
             - containerPort: 5000
           envFrom:

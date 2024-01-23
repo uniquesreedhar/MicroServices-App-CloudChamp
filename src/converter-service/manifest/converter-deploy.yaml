@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: converter
-          image: nasi101/converter
+          image: sreedhar8897/videotomp3-converter
           envFrom:
             - configMapRef:
                 name: converter-configmap

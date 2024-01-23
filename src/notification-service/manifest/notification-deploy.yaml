@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: notification
-          image: nasi101/notification
+          image: sreedhar8897/videotomp3-notify
           envFrom:
             - configMapRef:
                 name: notification-configmap

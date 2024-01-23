@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: mongodb        
-        image: mongo:4.0.8
+        image: mongo:latest
         env:
           - name: MONGO_INITDB_ROOT_USERNAME_FILE
             value: /etc/k8-test/admin/MONGO_ROOT_USERNAME
